@@ -21,22 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-        {data ? (
-          <div>
-            <h2>Meta Data:</h2>
-            <ul>
-              {Object.keys(data['Meta Data']).map((key, index) => (
-                <li key={index}>
-                  <strong>{key}:</strong> {(data['Meta Data'] as Record<string, string>)[key]}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ) : (
-          <p>Loading...</p>
-        )}
-      </div>
+      NFT GENERATION
     </div>
   );
 }
